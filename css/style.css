@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-image: ("./assetsasset/background.png");
+}
+
+.left_container-title {
+  text-align: center;
+  background-color: white;
+  border: black 2px solid;
+}
+.left_container-window-icons img {
+  width: 30px;
+}
+.left_container-window-icons p {
+  display: inline-block;
+}
+.left_container-window-icons {
+  text-align: right;
+}
+.left_container-player-center img {
+  width: 150px;
+}
+.left_container-player-center {
+  text-align: center;
+  border: red 10px solid;
+  background-color: darkorange;
+  border-radius: 50px;
+  margin: 0 2rem;
+  padding: 0.1rem 1rem;
+}
+.left_container-level {
+  text-align: center;
+  color: white;
+}
+.left_container-score img {
+  width: 30px;
+  margin: 8px;
+}
+.left_container-score h1 {
+  display: inline-block;
+  font: bolder;
+  float: right;
+}
+.left_container-score {
+  background-color: royalblue;
+  border: yellow 3px solid;
+  margin: 0 3rem;
+  padding: 0.3rem 1rem;
+  height: 44px;
+  width: 209px;
+}
+.left_container {
+  border: yellow 11px solid;
+  background-color: orange;
+  padding: 11px;
+  max-width: 400px;
+  display: inline-block;
+}
+.left_container-progressbar {
+  background-color: tomato;
+  display: inline-block;
+  width: 67%;
+  height: 44px;
+  text-align: center;
+  color: white;
+}
+.progressbar {
+  background-color: brown;
+  display: inline-block;
+  width: 30%;
+  height: 44px;
+  margin-left: -16px;
+  margin-bottom: 2px;
+}
